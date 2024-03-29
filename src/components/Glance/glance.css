@@ -1,0 +1,234 @@
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+#life-at-glance {
+  background: url(../../images/gl-left.png) 0 20% no-repeat,
+    url(../../images/gl-right.png) 100% 20% no-repeat #00b7ac;
+  padding: 67px 0;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#life-at-glance .heading h2 {
+  font-size: 40px;
+  color: #fff;
+}
+.montserrat-eb {
+  font-family: MontserratEB, Helvetica, "Open Sans", sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.mt-0 {
+  margin-top: 0;
+}
+* {
+  font-family: Montserrat, Helvetica, "Open Sans", sans-serif;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#life-at-glance .nav-tab {
+  padding-bottom: 35px;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  float: none;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+#life-at-glance .nav-tab > li {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+
+
+#life-at-glance .nav-tab > li.active > a,
+#life-at-glance .nav-tab > li.active > a:focus,
+#life-at-glance .nav-tab > li.active > a:hover {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: #00000070 0 10px 20px;
+  color: #34b6b0;
+  border: 1px solid #fff;
+}
+
+#life-at-glance .nav-tab > li > a {
+  transition: 0.5s ease all;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 12px 0;
+  text-decoration: none;
+  width: 100%;
+  display: grid;
+}
+
+
+
+#life-at-glance .nav-tab > li {
+  width: 100%;
+  float: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+
+#life-at-glance .nav-tab {
+  padding-bottom: 35px;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  float: none;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+#life-at-glance .nav-tab {
+  padding-bottom: 35px;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  float: none;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.splide {
+  padding: 20px 0;
+}
+
+.splide__arrow.splide__arrow--prev {
+  left: 10px;
+}
+.splide .splide__arrow {
+  top: 45%;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  transform: none;
+  border-radius: 50%;
+  background-color: #01b2ac;
+  opacity: 0.9;
+}
+
+.splide__arrow {
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ccc;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2em;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0.7;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2em;
+  z-index: 1;
+}
+
+.splide__arrow.splide__arrow--next {
+  right: 10px;
+}
+
+.splide__arrow--next {
+  right: 1em;
+}
+
+.splide__track {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+.view-all-glance {
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 2rem;
+}
+
+.view-all-glance a {
+  background: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Montserrat;
+  color: #34b6b0;
+  padding: 10px 40px;
+  margin-top: 10px;
+  border: solid 0 transparent;
+  transition: 0.5s ease all;
+  cursor: pointer;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.text-none {
+  text-decoration: none;
+}

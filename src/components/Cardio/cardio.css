@@ -1,0 +1,231 @@
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#human-care .cardio {
+  margin-top: 30px;
+  border-radius: 6px;
+  padding: 49px 69px;
+  margin-bottom: 72px;
+  background: url(../../images/cardio.svg) -13% 108% no-repeat,
+    linear-gradient(328.58deg, #034ea1 -15.54%, #00b7ac 83%) -13% 108%;
+}
+
+#human-care .cardio .cardio-txt {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 39px;
+}
+
+#human-care .cardio p {
+  font-size: 16px;
+  line-height: 33px;
+  color: #fff;
+  padding-bottom: 27px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+#human-care .cardio h2 {
+  color: #fff;
+  font-size: 36px;
+  padding-bottom: 20px;
+  margin: 0;
+  font-family: MontserratEB, Helvetica, sans-serif, Arial;
+}
+
+#human-care .cardio .know-more a {
+  background-color: #fff;
+  color: #034ea1;
+  padding: 12px 45px;
+  border: 0;
+  font-size: 20px;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-none {
+  text-decoration: none;
+}
+
+.experts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.experts .expert-content {
+  margin-left: 16%;
+}
+
+.experts .expert-content h3 {
+  font-size: 44px;
+  color: #034ea1;
+  padding: 0;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.montserrat-eb {
+  font-family: MontserratEB, Helvetica, "Open Sans", sans-serif;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.experts .expert-content p {
+  font-size: 12px;
+  line-height: 23px;
+  color: #00000080;
+  margin: 0.75em 0 1.5em;
+  padding: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.experts .expert-content a {
+  background-color: #034ea1;
+  color: #fff;
+  font-family: MontserratBold, Helvetica, sans-serif;
+  padding: 12px 35px;
+  margin-top: 50px;
+  box-shadow: 0 10px 20px #0000003b;
+  margin-bottom: 20px;
+  border: 0;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.experts .expert-content a {
+  text-decoration: none;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.expert-number {
+  padding-left: 95px;
+  width: 50%;
+}
+.relative {
+  position: relative;
+}
+
+.expert-number .expert-number-layout {
+  background: #00b7ac;
+  padding: 20px 15px 20px 44px;
+}
+
+
+
+.expert-number .expert-number-layout .no {
+  padding-bottom: 0;
+}
+.expert-number .expert-number-layout div {
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.expert-number .expert-number-layout div {
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.montserrat-Bold {
+  font-family: MontserratBold, Helvetica, "Open Sans", sans-serif;
+}
+
+.expert-number .expert-number-layout div .increment-count-anim {
+  font-size: 30px;
+  color: #fff;
+  line-height: 27px;
+}
+
+.expert-number .expert-number-layout p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 0;
+}
+
+.span-line {
+  opacity: 0.5;
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+  transform: matrix(1, -0.01, 0.01, 1, 0, 0);
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.expert-number .expert-number-layout .no {
+  padding-bottom: 0;
+}
+.expert-number .expert-number-layout div {
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.expert-number {
+  padding-left: 95px;
+  width: 50%;
+}
+.relative {
+  position: relative;
+}
+
+

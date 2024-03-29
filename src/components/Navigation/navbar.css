@@ -1,0 +1,33 @@
+.maindiv{
+    height: 100;
+    max-width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+
+
+/* navbar.css */
+.navbar-links {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items horizontally */
+  }
+  
+  .navbar-links li {
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  
+  .navbar-links li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+  }
+  
+  .navbar-links li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+  }
+  
+  .navbar-links li a:hover {
+    color: blue; /* Change link color on hover */
+  }
+  
