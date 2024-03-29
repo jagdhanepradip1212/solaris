@@ -1,33 +1,501 @@
-.maindiv{
-    height: 100;
-    max-width: 100%;
-    background-color: #fff;
-    display: flex;
+.maindiv {
+  height: 100;
+  max-width: 100%;
+  background-color: #fff;
+  display: contents;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
 }
 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-logo {
+  display: block;
+  width: 240px;
+  height: 46px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
 
 /* navbar.css */
 .navbar-links {
-    list-style-type: none; /* Remove default list styling */
-    margin: 0;
-    padding: 0;
-    display: flex; /* Display the list items horizontally */
-  }
-  
-  .navbar-links li {
-    margin-right: 20px; /* Add spacing between list items */
-  }
-  
-  .navbar-links li:last-child {
-    margin-right: 0; /* Remove margin from last list item */
-  }
-  
-  .navbar-links li a {
-    text-decoration: none; /* Remove underline from links */
-    color: black; /* Set link color */
-  }
-  
-  .navbar-links li a:hover {
-    color: blue; /* Change link color on hover */
-  }
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-right: 20px; /* Add spacing between list items */
+}
+
+.navbar-links li:last-child {
+  margin-right: 0; /* Remove margin from last list item */
+}
+
+.navbar-links li a {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set link color */
+}
+
+.navbar-links li a:hover {
+  color: blue; /* Change link color on hover */
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* .montserrat-sb {
+  font-family: MontserratSB, Helvetica, "Open Sans", sans-serif;
+} */
+
+.access-lab-reports {
+  border: 1px solid #00b7ac;
+  border-radius: 6px;
+  color: #284797;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  display: block;
+  outline: 0;
+  text-decoration: none;
+  transition: 0.5s ease all;
+  font-size: 13px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #00b7ab6e;
+  border-radius: 10px;
+}
+
+.appointment {
+  background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+  width: 150px;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 27px;
+  border: none;
+  color: #fff;
+  margin: 0;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  font-size: 14px;
+  padding: 0;
+}
+.text-none {
+  text-decoration: none;
+}
+
+.appointment svg {
+  width: 18px;
+  height: 18px;
+  padding-right: 5px;
+}
+
+.appointment-mobile {
+  border-radius: 50% !important;
+  align-items: center;
+  text-decoration: none;
+  background: #fff;
+  max-height: 20px;
+}
+.appointment-mobile {
+  display: none;
+}
+
+.search-icon-header {
+  position: relative;
+  display: inline-block;
+  border-radius: 37px;
+  height: 7px;
+  width: 7px;
+  border: 2px solid #034ea1;
+  position: relative;
+  bottom: 1px;
+}
+
+.emergency {
+  background: #c61c1a;
+  border-radius: 5px;
+  height: 38px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: 0.5s ease all;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  padding: 0;
+}
+
+.emergency-mobile {
+  display: none;
+}
+
+.emergency-mobile {
+  border-radius: 50% !important;
+  width: 25px !important;
+  height: 25px !important;
+  padding: 9px !important;
+}
+
+.emergency img {
+  width: 100%;
+  height: 18px;
+  padding-right: 15px;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.emergency span {
+  margin-top: 2px;
+}
+
+.logo-desktop {
+  display: block;
+}
+
+.lifes-on {
+  width: 150px;
+  height: 60px;
+  background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+  padding: 1px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.lifes-on-img {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.relative {
+  position: relative;
+}
+
+.lifes-on:before {
+  animation: 8s ease-in-out infinite ripple;
+  bottom: 0;
+  box-sizing: border-box;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.manipal-logo {
+  width: 240px;
+  height: 46px;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.checkup-pkg,
+.lifes-on:before {
+  background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+  border-radius: 5px;
+  position: absolute;
+}
+.checkup-pkg,
+.lifes-on p {
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.checkup-pkg {
+  height: 100%;
+  width: 0;
+  animation: 8s linear infinite pkg;
+  transition: 0.6s ease-in-out;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.lifes-on p {
+  position: absolute;
+  top: 50%;
+  font-size: 10.5px;
+  margin: 0;
+  text-align: center;
+  padding: 2px;
+  line-height: 15px;
+  width: 100%;
+  color: #fff;
+  animation: 8s linear infinite pkg-txt;
+  transition: 0.1s ease-in-out;
+}
+.checkup-pkg,
+.lifes-on p {
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.mini-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-bar {
+  background: linear-gradient(90deg, #034ea1 0, #00b7ac 100%);
+  display: flex;
+  /* flex-wrap: nowrap; */
+}
+
+.nav-layout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 13px;
+  padding: 5px 5px 5px 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+.nav-list {
+  color: #fff;
+  font-size: 13px;
+  transition: 0.5s ease-in-out;
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.montserrat-sb {
+  font-family: MontserratSB, Helvetica, "Open Sans", sans-serif;
+}
+.text-white {
+  color: #fff;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.specialities-list {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  right: 8%;
+  width: auto;
+  height: 500px;
+  overflow: scroll;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.7s ease-in-out 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 10ms;
+  background-color: #fff;
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: 1px solid #034fa1;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.sepeciality-heading {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.specialities-list p {
+  font-family: MontserratBold, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  color: #707070;
+  font-weight: 600;
+}
+
+.specialities-list a {
+  font-family: MontserratSB;
+  font-size: 12px;
+  line-height: 34px;
+  color: #707070;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: solid 1px #70707033;
+  display: block;
+}
+
+.hospitals {
+  position: relative;
+}
+
+.multi-level {
+  position: absolute;
+  display: none;
+  border: 1px solid #034ea1;
+  border-radius: 10px;
+  background: #fff;
+  padding: 15px 0;
+  top: 100%;
+  right: 0;
+  list-style: none;
+  width: 200px;
+  padding-top: 18px;
+}
+
+.multi-level li {
+  padding: 10px 15px;
+  position: relative;
+}
+
+.multi-level {
+  position: absolute;
+  display: none;
+  border: 1px solid #034ea1;
+  border-radius: 10px;
+  background: #fff;
+  padding: 15px 0;
+  top: 100%;
+  right: 0;
+  list-style: none;
+  width: 200px;
+  padding-top: 18px;
+}
+
+.city-div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.city-div {
+  position: relative;
+}
+
+.city-ico {
+  width: 35px;
+  height: auto;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.hidden-submenu {
+  display: none;
+}
+
+.hospital-dropdown-menu {
+  position: absolute;
+  left: 100%;
+  background: #fff;
+  border: 1px solid #034ea1;
+  padding: 5px;
+  top: 0;
+  border-radius: 5px;
+  min-width: 250px;
+  list-style-type: none;
+  z-index: 999;
+  margin-left: 10px;
+}
+
+.city-title {
+  margin-bottom: 15px;
+}
+.city-div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.city-div {
+  position: relative;
+}

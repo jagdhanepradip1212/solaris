@@ -1,51 +1,427 @@
 .horizontal-form {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    width: 100%;  
-    border-radius: 12px;
-    border: 1px solid #00b7ac;
-    margin-top: auto;
-    background-color: #ffffffe6;
-    padding: 7px 22px;
-    display: inline-block;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 12px;
+  border: 1px solid #00b7ac;
+  margin-top: auto;
+  background-color: #ffffffe6;
+  padding: 7px 22px;
+  display: inline-block;
+}
+
+.horizontal-form form {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-form label {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.horizontal-form select {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+.horizontal-form button {
+  padding: 8px 15px;
+  background: linear-gradient(to right, #034ea1, #00b7ac);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: inset 0 0 5px #00b7ab6e;
+  text-align: center;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+}
+
+.horizontal-form button:hover {
+  background-color: #0056b3;
+}
+
+.horizontal-form-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+}
+
+.horizontal-form {
+  /* Your form styles */
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontal-form form {
+  /* Additional form styles */
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Vertically center form elements */
+}
+
+.horizontal-form label,
+.horizontal-form select,
+.horizontal-form button {
+  margin: 0 10px; /* Adjust spacing between form elements */
+}
+
+.margin-negative {
+  z-index: 2;
+  position: relative;
+  margin: 70px 0 -220px;
 
 }
-  
-  .horizontal-form form {
-    display: flex;
-    align-items: center;
-  }
-  
-  .horizontal-form label {
-    margin-right: 10px;
-    color: #007bff;
-  }
-  
-  .horizontal-form select {
-    padding: 5px;
-    margin-right: 10px;
-    border-radius: 5px;
-    border: 1px solid #ced4da;
-  }
-  
-  .horizontal-form button {
-    padding: 8px 15px;
-    background: linear-gradient(to right, #034ea1, #00b7ac);
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: inset 0 0 5px #00b7ab6e;
-    text-align: center;
-    color: #fff;
-    border: none;
-    font-size: 14px;
-  }
-  
-  .horizontal-form button:hover {
-    background-color: #0056b3;
-  }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+}
+
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.sigma_cta.style-14 {
+  padding: 40px 40px 50px;
+}
+
+.sigma_cta.style-14 {
+  /* background-color: #00acb1; */
+  background-color: var(--thm-base);
+  border-radius: 6px;
+  box-shadow: 0 3px 24px rgb(0 0 0/4%);
+  padding: 40px;
+}
+
+.sigma_cta.style-6,
+.sigma_cta.style-7,
+.sigma_cta.style-9,
+.sigma_cta.style-14 {
+  text-align: left;
+  padding: 50px;
+  border-radius: 25px;
+  background-color: #fff;
+  box-shadow: 0 3px 24px rgba(0, 0, 0, 0.04);
+  overflow: visible;
+}
+
+.sigma_cta {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.sigma_cta.style-14 .sigma_cta-content i {
+  color: #fff;
+  font-size: 50px;
+  display: inline-block;
+  line-height: 1;
+  margin-right: 30px;
+}
+
+.sigma_cta.style-14 .sigma_cta-content h4 {
+  max-width: 300px;
+}
+
+.sigma_cta.style-14 .sigma_cta-content h4 {
+  padding-left: 0;
+  color: #fff;
+  flex: 1 1;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+h4 {
+  font-family: "Heebo", sans-serif;
+  font-family: var(--thm-font);
+  font-weight: 600;
+  color: #005963;
+  color: var(--thm-secondary);
+}
+
+.sigma_cta.style-14 p {
+  margin: 20px 0 35px;
+}
+.text-white {
+  color: #fff !important;
+}
+
+.sigma_cta.style-14 form .input-group.has-border {
+  border: 2px solid #fff;
+  border-radius: 6px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.sigma_cta.style-14 form .input-group.has-border input {
+  height: 70px;
+}
+
+.sigma_cta.style-14 form .input-group.has-border input {
+  border: 0;
+}
+
+.sigma_cta.style-14 form input {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 6px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+select,
+textarea,
+.form-control {
+  position: relative;
+  display: block;
+  height: 60px;
+  width: 100%;
+  font-size: 16px;
+  color: #686a6f;
+  font-weight: 400;
+  padding: 14px 30px;
+  letter-spacing: 0.1em;
+  background-color: #fff;
+  border: 1px solid var(--thm-border);
+  border-radius: 0;
+  transition: all 300ms ease;
+  font-family: var(--thm-b-font);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.sigma_cta.style-9 form .input-group.has-border .input-group-append,
+.sigma_cta.style-14 form .input-group.has-border .input-group-append {
+  padding: 6px;
+}
+
+.input-group-append,
+.input-group-append button i,
+.input-group-prepend {
+  margin: 0;
+}
+.input-group-append {
+  margin-left: -1px;
+}
+.input-group-append,
+.input-group-prepend {
+  display: flex;
+}
+
+.sigma_cta.style-14 form .input-group.has-border .input-group-append button {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.button.light {
+  background-color: #fff;
+}
+
+.col-lg-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.sigma_clients-wrapper.style-3 {
+  padding: 50px 50px 20px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.sigma_clients.style-3 {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sigma_clients.style-3 {
+  border: 1px solid #ebf2f3;
+  border: 1px solid var(--thm-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.sigma_clients {
+  position: relative;
+  margin-bottom: 30px;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sigma_clients.style-3 img {
+  width: auto;
+}
+.sigma_clients img {
+  width: 100%;
+  transition: .3s;
+}
+img {
+  max-width: 100%;
+}
+img, svg {
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+
+.container{
+  display: contents;
+  justify-content: space-between;
+}
+
+.sigma_cta {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sigma_cta-content {
+  margin-bottom: 20px;
+}
+
+.sigma_cta-content i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #00acb1;
+}
+
+.sigma_cta-content h4 {
+  margin: 0;
+  font-size: 20px;
+  color: #444;
+}
+
+.sigma_cta p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.input-group input {
+  width: calc(100% - 90px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-group-append button {
+  width: 90px;
+  padding: 10px;
+  background-color: #00acb1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-group-append button:hover {
+  background-color: #008c95;
+}
 
 
-  
+

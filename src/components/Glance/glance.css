@@ -71,8 +71,6 @@ h2 {
   white-space: nowrap;
 }
 
-
-
 #life-at-glance .nav-tab > li.active > a,
 #life-at-glance .nav-tab > li.active > a:focus,
 #life-at-glance .nav-tab > li.active > a:hover {
@@ -95,8 +93,6 @@ h2 {
   width: 100%;
   display: grid;
 }
-
-
 
 #life-at-glance .nav-tab > li {
   width: 100%;
@@ -232,3 +228,5 @@ li {
 .text-none {
   text-decoration: none;
 }
+
+

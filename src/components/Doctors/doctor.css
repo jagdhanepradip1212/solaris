@@ -150,15 +150,15 @@ span {
 }
 
 .searchbtn {
-    background-image: url(), linear-gradient(to right, #034ea1, #00b7ac);
-    background-position: 13% 50%;
-    background-repeat: no-repeat;
-    border-radius: 6px;
-    color: #fff;
-    border: none;
-    padding: 6px 25px 6px 35px;
-    margin-top: 3px;
-    font-weight: 500;
+  background-image: url(), linear-gradient(to right, #034ea1, #00b7ac);
+  background-position: 13% 50%;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  padding: 6px 25px 6px 35px;
+  margin-top: 3px;
+  font-weight: 500;
 }
 
 .view-more-booking {
@@ -169,4 +169,60 @@ span {
   font-size: 14px !important;
   font-family: Montserrat, sans-serif;
   text-transform: capitalize;
+}
+
+.doctor-info {
+  padding: 50px 0;
+}
+
+.doctor-details {
+  padding: 0 20px;
+}
+
+.doctor-details h2 {
+  color: #034ea1;
+}
+
+.specialty,
+.experience,
+.education {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.doctor-info {
+  padding: 50px 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-item img {
+  width: 100%;
+}
+
+.grid-item h2 {
+  color: #034ea1;
+}
+
+.specialty,
+.experience,
+.education {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
 }

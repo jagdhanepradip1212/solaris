@@ -1,82 +1,253 @@
-<section id="pageBanner" class="doctorListPage speciality-banner-wrap">
-  <picture>
-    <source type="image/webp" srcset="" class="w-100" />
-    <img
-      loading="lazy"
-      src="uploads/page-banners/Banner_Delhi_1920x520_141.png"
-      alt="Doctors List | Best Doctors in Bangalore, India | surgeons - Manipal Hospitals"
-      title="Doctors List | Best Doctors in Bangalore, India | surgeons - Manipal Hospitals"
-      class="speciality-banner img-responsive w-100"
-    />
-  </picture>
-  <div class="container search-wrap-banner">
-    <div class="row">
-      <div class="banCont col-md-12 col-sm-12 col-xs-12 no-padding">
-        <div class="bannerForm col-md-12 col-sm-12 col-xs-12 no-padding">
-          <form
-            action="https://www.manipalhospitals.com/search_doctors/"
-            method="post"
-            class="form1"
-            onsubmit="return validate()"
-          >
-            <div class="form-group">
-              <select
-                class="form-control form-control chosen-select"
-                id="hospital_id"
-                name="hospital_id"
-                data-live-search="true"
-              >
-                <option value="">Select Hospital</option>
-                <option value="1">Old Airport Road - Bengaluru</option>
-                <option value="3">Malleshwaram - Bengaluru</option>
-
-                <option value="2">Jayanagar - Bengaluru</option>
-                <option value="9">Jaipur</option>
-                <option value="10">Mangalore</option>
-                <option value="7">Dwarka - Delhi</option>
-
-                <option value="23">Patiala</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <select
-                class="form-control form-control chosen-select"
-                id="speciality_id"
-                name="speciality_id"
-                data-live-search="true"
-              >
-                <option value="">Select Speciality</option>
-                <option value="57">Accident and Emergency Care</option>
-                <option value="78">Allergy and Immunology</option>
-
-                <option value="63">Vascular and Endovascular Surgery</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <select
-                class="form-control form-control chosen-select"
-                id="doctor_id"
-                name="doctor_id"
-              >
-                <option value="">Select Doctor</option>
-                <option value="doc-id-1755">(COL) DR. AVNISH SETH VSM</option>
-
-                <option value="doc-id-2317">DR. SUHAIL S GAUR</option>
-                <option value="doc-id-1374">DR. SUHAS H S</option>
-              </select>
-            </div>
-
-            <div class="searchBtn1">
-              <input
-                type="submit"
-                class="searchbtn booking-btn doc-book-btn"
-                name="submit"
-                value="Submit"
-              />
-            </div>
-          </form>
+import React from "react";
+import '../Glance/glance.css';
+const Glance = () => {
+  return (
+    <section id="life-at-glance" className="full-screen-container"> {/* Add full-screen-container class */}
+      <div className="container">
+        <div className="heading">
+          <h2 className="text-center montserrat-eb mt-0">Life at a Glance</h2>{" "}
+        </div>
+        <div className="lifeTab center-block">
+          <ul className="nav-tab">
+            {/* Your list items */}
+          </ul>
         </div>
       </div>
-    </div>
+      <div id="splide" className="splide"></div>
+      <div className="view-all-glance mt-2">
+        <a
+          href="https://www.manipalhospitals.com/life-at-manipal/"
+          className="btn text-none"
+        >
+          View All
+        </a>
+      </div>
+    </section>
+    <div class="col-md-12 col-sm-12 col-xs-12 blue-bg">
+      <div class="timeline col-md-12 col-sm-12 col-xs-12 no-padding">
+          <h5 class="m-75 m-30">Timeline</h5>
+          <div class="tabs">
+              <div class="border-tob-bottom">
+                  <div class="tab-button-outer">
+                      <ul id="tab-button" class="nav nav-tabs">
+                                                                          <li class="slickSlide is-active">
+                                  <a href="#tab0" data-toggle="tab">1991</a>
+                              </li>
+                                                                          <li class="slickSlide">
+                                  <a href="#tab1" data-toggle="tab">1993</a>
+                              </li>
+                                                                          <li class="slickSlide">
+                                  <a href="#tab2" data-toggle="tab">1994</a>
+                              </li>
+                                                                          <li class="slickSlide">
+                                  <a href="#tab3" data-toggle="tab">1997</a>
+                              </li>
+                                                                          <li class="slickSlide">
+                                  <a href="#tab4" data-toggle="tab">2006</a>
+                              </li>
+                                                                          <li class="slickSlide">
+                                  <a href="#tab5" data-toggle="tab">2007</a>
+                              </li>
+                                                                          <li class="slickSlide">
+                                  <a href="#tab6" data-toggle="tab">2008</a>
+                              </li>
+                                                                          <li class="slickSlide">
+                                  <a href="#tab7" data-toggle="tab">2014</a>
+                              </li>
+                                                                          <li class="slickSlide">
+                                  <a href="#tab8" data-toggle="tab">2016</a>
+                              </li>
+                                                                          <li class="slickSlide">
+                                  <a href="#tab9" data-toggle="tab">2018</a>
+                              </li>
+                                                                          <li class="slickSlide">
+                                  <a href="#tab10" data-toggle="tab">2021</a>
+                              </li>
+                                                                  </ul>
+                  </div>
+              </div>
+              <div class="tab-content">
+                                                                                                      <div id="tab0" class="tab-pane fade sliderCont in active">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding slick-initialized slick-slider">
+                                                                                                                                                                                                                      <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 850px; transform: translate3d(0px, 0px, 0px);"><div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" style="width: 850px;">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>1991</span></p>
+                                                      <h3>MANIPAL HOSPITALS BANGALORE, OLD AIRPORT ROAD</h3>                                                                        <p>The flagship hospital of Manipal Health Enterprises, Manipal Hospital HAL Airport Road, is a 600 bed quaternary care facility set up in 1991. Situated in the heart of Bangalore, Manipal Hospital HAL Airport Road provides care in over 60 specialities under one roof.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/Timeline_1.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/Timeline_1.jpg" class="img-responsive" alt="MANIPAL HOSPITALS BANGALORE, OLD AIRPORT ROAD" title="MANIPAL HOSPITALS BANGALORE, OLD AIRPORT ROAD">                                                                    </picture>    
+                                              </div>
+                                              </div></div></div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </div>
+                          </div>
+                                                                  <div id="tab1" class="tab-pane fade sliderCont ">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>1993</span></p>
+                                                      <h3>MANIPAL NORTHSIDE HOSPITAL BANGALORE, MALLESHWARAM</h3>                                                                        <p>This 83 bedded hospital caters to residents in &amp; around Malleshwaram, and west &amp; north Bangalore. Among other specialities, the hospital's focus departments include Intensive Care, Gynaecology, Orthopaedics and General Medicine. In addition, the hospital has an independent outpatient clinic rendering all services and health checks, OP Dialysis and Dental Care.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/Timeline_2.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/Timeline_2.jpg" class="img-responsive" alt="MANIPAL NORTHSIDE HOSPITAL BANGALORE, MALLESHWARAM" title="MANIPAL NORTHSIDE HOSPITAL BANGALORE, MALLESHWARAM">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          </div>
+                          </div>
+                                                                  <div id="tab2" class="tab-pane fade sliderCont ">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>1994</span></p>
+                                                      <h3>MANIPAL HOSPITALS GOA</h3>                                                                        <p>Manipal Hospital, Goa is one of the largest private hospitals in Goa, offering the highest number of specialities, having the highest number of full time doctors and 24/7 services of pharmacy, laboratory and paediatric and neonatal emergency. It has 6 world class operation theatres and a 235 bed facility. With highest standards of clinical expertise, nursing care and state-of-the-art hospital facilities, we provide rapid assessment, intervention and treatment for numerous common and complex conditions. Patients receive customized, individual care.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/Timeline_3.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/Timeline_3.jpg" class="img-responsive" alt="MANIPAL HOSPITALS GOA" title="MANIPAL HOSPITALS GOA">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </div>
+                          </div>
+                                                                  <div id="tab3" class="tab-pane fade sliderCont ">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>1997</span></p>
+                                                      <h3>MANIPAL HOSPITALS MANGALORE</h3>                                                                        <p>A 251 bed tertiary care hospital, KMC Hospital, Mangalore located at Ambedkar Circle has an entire range of sub-specialities and high end diagnostic capabilities. The hospital enjoys a close association with the academic faculty members of Manipal University. The laboratory at KMC Hospital is the first in the region to be accredited by the National Accreditation Board for Testing and Calibration Laboratories (NABL) and so is its blood bank (NABL for Blood Banks). A major expansion plan is currently under implementation which will add another 158 beds to the facility.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/TIMELINE_81.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/TIMELINE_81.jpg" class="img-responsive" alt="MANIPAL HOSPITALS MANGALORE" title="MANIPAL HOSPITALS MANGALORE">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+                          </div>
+                                                                  <div id="tab4" class="tab-pane fade sliderCont ">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>2006</span></p>
+                                                      <h3>MANIPAL HOSPITALS VIJAYAWADA</h3>                                                                        <p>Manipal Hospital, Vijayawada is one of the largest hospitals in coastal Andhra Pradesh. This tertiary care hospital has a capacity of 350 beds and high end diagnostic facilities. It currently has 240 beds operational. The hospital is renowned for its comprehensive tertiary care specialties.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/tIMELINE_7.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/tIMELINE_7.jpg" class="img-responsive" alt="MANIPAL HOSPITALS VIJAYAWADA" title="MANIPAL HOSPITALS VIJAYAWADA">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          </div>
+                          </div>
+                                                                  <div id="tab5" class="tab-pane fade sliderCont ">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>2007</span></p>
+                                                      <h3>MANIPAL HOSPITALS SALEM</h3>                                                                        <p>Manipal Hospital, Salem is a 110 bed tertiary care hospital located on the Salem-Bangalore expressway. By hint of its location, it offers easy accessibility to the adjoining districts of Tamil Nadu. The hospital is one of the most comprehensive tertiary care hospital with capabilities in Cardiac Care, Neuro Surgery, Gastroenterology, etc.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/TIMELINE_8.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/TIMELINE_8.jpg" class="img-responsive" alt="MANIPAL HOSPITALS SALEM" title="MANIPAL HOSPITALS SALEM">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </div>
+                          </div>
+                                                                  <div id="tab6" class="tab-pane fade sliderCont ">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>2008</span></p>
+                                                      <h3>DR.MALATHI MANIPAL HOSPITAL BANGALORE JAYANAGAR</h3>                                                                        <p>Located in South Bangalore, the 70 beds Dr. Malathi Manipal Hospital is a secondary care facility that offers convenient healthcare for people residing in neighbourhood. The hospital's focus departments include Mother &amp; Child Care, Intensive Care &amp; General Surgery among others.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/TIMELINE_9.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/TIMELINE_9.jpg" class="img-responsive" alt="DR.MALATHI MANIPAL HOSPITAL BANGALORE JAYANAGAR" title="DR.MALATHI MANIPAL HOSPITAL BANGALORE JAYANAGAR">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </div>
+                          </div>
+                                                                  <div id="tab7" class="tab-pane fade sliderCont ">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>2014</span></p>
+                                                      <h3>MANIPAL HOSPITALS JAIPUR</h3>                                                                        <p>The focus at Manipal Hospital is to develop an affordable tertiary care multispecialty healthcare framework through its entire delivery spectrum and further extend it to homecare.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/TIMELINE_12.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/TIMELINE_12.jpg" class="img-responsive" alt="MANIPAL HOSPITALS JAIPUR" title="MANIPAL HOSPITALS JAIPUR">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+                          </div>
+                                                                  <div id="tab8" class="tab-pane fade sliderCont ">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>2016</span></p>
+                                                      <h3>MANIPAL HOSPITALS WHITEFIELD</h3>                                                                        <p>Manipal Hospital Whitefield (MHW) is a unit of the renowned Manipal Hospitals network that is known for Quality and Patient care. It is a 280 beds multi-specialty Hospital offering world class services in the Whitefield area of Bangalore city. Manipal Hospital Whitefield covers the complete range of Preventive and Curative care.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/TIMELINE_13.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/TIMELINE_13.jpg" class="img-responsive" alt="MANIPAL HOSPITALS WHITEFIELD" title="MANIPAL HOSPITALS WHITEFIELD">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                                                                                                                                          </div>
+                          </div>
+                                                                  <div id="tab9" class="tab-pane fade sliderCont ">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>2018</span></p>
+                                                      <h3>MANIPAL HOSPITALS DELHI</h3>                                                                        <p>Manipal Hospital Dwarka, is a multi super speciality tertiary care healthcare facility, delivering world-class healthcare, at an optimum cost. Our aim is to deliver Affordable, Accessible and Accurate healthcare to all sections of the society, without bias.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/TIMELINE_14.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/TIMELINE_14.jpg" class="img-responsive" alt="MANIPAL HOSPITALS DELHI" title="MANIPAL HOSPITALS DELHI">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                      </div>
+                          </div>
+                                                                  <div id="tab10" class="tab-pane fade sliderCont ">
+                              <div class="sliderCont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                                                                                                                                                                                                                                                                                                          <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>2021</span></p>
+                                                      <h3>COLUMBIA ASIA HOSPITALS</h3>                                                                        <p>Columbia Asia Hospitals joins the Manipal Hospitals family, making it India's second-largest healthcare network. Columbia Asia is an international healthcare group operating a chain of modern hospitals across Asia. Columbia Asia Hospitals Pvt. Ltd. is one of the first healthcare companies to enter India through a 100% foreign direct investment route. The first hospital in India commenced operations in 2005 in Hebbal – Bangalore and currently, Columbia Asia operates eleven facilities. The group has a presence in Bangalore, Mysore, Kolkata, Gurugram, Ghaziabad, Patiala, and Pune.                                                                        </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/columbia-asia-hospitals.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/columbia-asia-hospitals.png" class="img-responsive" alt="COLUMBIA ASIA HOSPITALS" title="COLUMBIA ASIA HOSPITALS">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                                                                                                                                                                  <div class="2006Cont col-md-12 col-sm-12 col-xs-12 no-padding">
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding">
+                                                      <p><span>2021</span></p>
+                                                      <h3>VIKRAM HOSPITAL BENGALURU</h3>                                                                        <p>To strengthen our commitment to the LIFE’S ON purpose, we have welcomed the most trusted healthcare brand Vikram Hospital, Bengaluru to the Manipal Hospitals family. A trusted healthcare system that assures performance, care and compassion, safety, and the earliest possible recovery and reliable to deliver the best experience. 24 hour human, medical, and infrastructural services ensure your constant comfort and quick recovery.                                                                         </p>
+                                                  </div>
+                                                  <div class="col-md-6 col-sm-6 col-xs-12 no-padding timeImg">
+                                                  <picture>  
+                                                  <source type="image/webp" srcset="uploads/timeline/vikram-hospital.webp" class="w-100">  
+                                                      <img src="https://www.manipalhospitals.com/uploads/timeline/vikram-hospital.png" class="img-responsive" alt="VIKRAM HOSPITAL BENGALURU" title="VIKRAM HOSPITAL BENGALURU">                                                                    </picture>    
+                                              </div>
+                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </div>
+                          </div>
+                                                                                          </div>
+          </div>
+      </div>
   </div>
-</section>
+  );
+};
+
+export default Glance;

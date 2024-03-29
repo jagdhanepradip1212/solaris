@@ -1,17 +1,19 @@
 import React from "react";
+import about from "../../images/about.png";
 
 const About = () => {
-    return(
-        <section id="pageBanner" class="aboutPage speciality-banner-wrap">
-            <picture>
-                <source type="image/webp" srcset="uploads/page-banners/Banners_MH-Whitefield_1920x520_231.webp" class="w-100"/>
-                <img src=""/>
-                <h1>gfdgfdg</h1>
-            </picture>
-        </section>
-    )
-}
+  return (
+    <div>
+      <section id="pageBanner" className="aboutPage speciality-banner-wrap">
+        <picture>
+          <img src={about} style={{ objectFit: "contain", width: "100%", height: "100%" }} />
+        </picture>
+      </section>
+      <div >
+hfhfghfg
+      </div>
+    </div>
+  );
+};
 
 export default About;
-
-// view-source:https://www.manipalhospitals.com/about-us/
